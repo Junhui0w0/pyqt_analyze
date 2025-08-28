@@ -59,7 +59,7 @@ class LoginWindow(QMainWindow, loginForm):
         elif ret_basic_login == 'Success To Login':
             print('[debug] 로그인 성공')
 
-            self.mainpage_window = mainhomepage(self) #self=login폼
+            self.mainpage_window = mainhomepage(self.edit_id.text(), self) #self=login폼
             self.mainpage_window.show()
 
             self.hide() #현 login폼 하이드
