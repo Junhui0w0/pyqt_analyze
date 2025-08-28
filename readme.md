@@ -5,4 +5,8 @@
 
 # 2025-08-27 #
 1. login 후 mainpage 구축
-2. profile 출력 에러
+2. profile 출력 에러 (2025-08-28: 경로 에러 해결)
+
+# 2025-08-28 #
+1. profile 변경 기능
+2. logout 기능 구현
