@@ -119,8 +119,8 @@
    <widget class="ClickableLabel" name="lbl_profile">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>60</y>
+      <x>10</x>
+      <y>0</y>
       <width>171</width>
       <height>161</height>
      </rect>
@@ -142,6 +142,9 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../img/profile.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
